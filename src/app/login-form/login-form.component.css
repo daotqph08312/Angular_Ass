@@ -1,0 +1,89 @@
+.login-form{
+  height:100vh;
+  width:100%;
+  overflow: hidden;
+  background: #fff;
+}
+.login-form .body{
+  max-width: 400px;
+  height: auto;
+  box-shadow: 0 3px 20px 0 rgba(0,0,0,.1);
+  border-radius:10px;
+  margin:auto;
+  overflow: hidden;
+}
+.body h3{
+  background: #57b846;
+  padding:40px;
+  text-align: center;
+  margin:0;
+  font-size:30px;
+  color:#fff;
+}
+.main{
+  padding:30px;
+}
+.body .input{
+     margin: 10px auto; border-radius: 40px; overflow: hidden; padding: 15px 30px; background: #eee;
+}
+.body input{
+       border: none;
+    width: 100%;
+    height: 20px;
+    margin: 0px auto;
+    /* padding-left: 30px; */
+    background: #eee;
+    outline: none;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;  
+    transition:200ms linear all;
+}
+/* .body .input:hover{
+  padding:10px;
+} */
+.body input::placeholder{
+  font-size:14px;
+  color:black;
+  font-weight: bold;
+}
+button{
+  padding: 15px;
+    text-align: center;
+    border: none;
+  font-weight: bold;
+    background: #57b846;
+    border-radius: 40px;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition:200ms linear all;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+   background: #0d4c02;    
+}
+.fp{
+    text-align: right;
+    padding: 10px; 
+}
+.fp a{
+ text-decoration:none;
+  color: #57b846;
+   font-size: 16px;
+   margin:10px;
+}
+footer{
+  text-align: center;
+}
+footer h2:first-child{
+ color: #9E9E9E;
+    font-size: 18px;
+}
+footer h2:last-child{
+  color:#57b846;
+      font-size: 18px;
+
+}
